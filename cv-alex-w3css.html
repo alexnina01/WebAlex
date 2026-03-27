@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV - Alex Nina Copatiti</title>
+  <!-- W3.CSS Framework -->
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <!-- Iconos -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+    body {
+      background-color: #f0f4f8;
+      font-family: Arial, sans-serif;
+    }
+    .avatar {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      background-color: #C9A84C;
+      color: #1B3A4B;
+      font-size: 1.4rem;
+      font-weight: bold;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: 3px solid rgba(255,255,255,0.4);
+      margin: 0 auto 12px auto;
+    }
+    .habilidad-tag {
+      display: inline-block;
+      background-color: #1B3A4B;
+      color: white;
+      padding: 6px 14px;
+      border-radius: 20px;
+      font-size: 0.85rem;
+      margin: 4px;
+    }
+    .seccion-titulo {
+      letter-spacing: 2px;
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      color: #4A90A4;
+    }
+    .img-seccion {
+      width: 100%;
+      border-radius: 8px;
+      margin-top: 12px;
+      object-fit: cover;
+      max-height: 180px;
+    }
+    nav a:hover {
+      background-color: rgba(255,255,255,0.15) !important;
+      color: #C9A84C !important;
+    }
+  </style>
+</head>
+<body>
+
+<!-- CONTENEDOR PRINCIPAL -->
+<div class="w3-content" style="max-width:480px; margin:20px auto;">
+
+  <!-- HEADER / PERFIL -->
+  <div class="w3-card w3-round-large" style="background: linear-gradient(135deg, #1B3A4B, #2d6a8a); color:white; overflow:hidden;">
+
+    <div class="w3-container w3-padding-24 w3-center">
+      <div class="avatar">NCA</div>
+      <h2 class="w3-margin-0">Nina Copatiti Alex</h2>
+      <p style="color:#C9A84C; font-style:italic; margin:4px 0 0;">Estudiante · Ing. Informática</p>
+    </div>
+
+    <!-- CONTACTO -->
+    <div class="w3-container w3-padding" style="border-top:1px solid rgba(255,255,255,0.2); font-size:0.85rem; color:rgba(255,255,255,0.85);">
+      <span class="w3-margin-right"><i class="fa fa-phone"></i> 1111110</span>
+      <span class="w3-margin-right"><i class="fa fa-envelope"></i> alex@email.com</span>
+      <span><i class="fa fa-map-marker-alt"></i> Cochabamba, Bolivia</span>
+    </div>
+
+    <!-- NAVEGACIÓN -->
+    <div class="w3-bar" style="border-top:1px solid rgba(255,255,255,0.2); flex-wrap:wrap;">
+      <a href="#sobre-mi"    class="w3-bar-item w3-button w3-small" style="color:rgba(255,255,255,0.8); letter-spacing:0.5px;">Sobre mí</a>
+      <a href="#educacion"   class="w3-bar-item w3-button w3-small" style="color:rgba(255,255,255,0.8); letter-spacing:0.5px;">Educación</a>
+      <a href="#experiencia" class="w3-bar-item w3-button w3-small" style="color:rgba(255,255,255,0.8); letter-spacing:0.5px;">Experiencia</a>
+      <a href="#habilidades" class="w3-bar-item w3-button w3-small" style="color:rgba(255,255,255,0.8); letter-spacing:0.5px;">Habilidades</a>
+      <a href="#idiomas"     class="w3-bar-item w3-button w3-small" style="color:rgba(255,255,255,0.8); letter-spacing:0.5px;">Idiomas</a>
+    </div>
+  </div>
+
+  <!-- SOBRE MÍ -->
+  <div class="w3-card w3-round-large w3-margin-top w3-padding" id="sobre-mi">
+    <p class="seccion-titulo">Sobre mí</p>
+    <hr class="w3-border-light-grey">
+    <p class="w3-text-grey">
+      Soy una persona confiable y comprometida con mi crecimiento profesional,
+      en constante aprendizaje dentro del área de la Ingeniería Informática.
+      Me caracterizo por mi responsabilidad y perseverancia ante los retos.
+    </p>
+    <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=500&auto=format&fit=crop&q=60"
+         alt="Perfil" class="img-seccion">
+  </div>
+
+  <!-- EDUCACIÓN -->
+  <div class="w3-card w3-round-large w3-margin-top w3-padding" id="educacion">
+    <p class="seccion-titulo">Educación</p>
+    <hr class="w3-border-light-grey">
+
+    <div class="w3-row">
+      <div class="w3-col" style="width:14px;">
+        <div style="width:10px;height:10px;border-radius:50%;background:#C9A84C;margin-top:6px;"></div>
+      </div>
+      <div class="w3-rest w3-padding-left">
+        <strong class="w3-text-dark-grey">Ingeniería Informática</strong>
+        <span class="w3-tag w3-small w3-round" style="background:#4A90A4; color:white;">En curso · 2026</span>
+        <p class="w3-text-grey w3-small">Universidad — Cochabamba, Bolivia. Carrera enfocada en desarrollo de software, redes, bases de datos y sistemas de información.</p>
+      </div>
+    </div>
+
+    <div class="w3-row w3-margin-top">
+      <div class="w3-col" style="width:14px;">
+        <div style="width:10px;height:10px;border-radius:50%;background:#C9A84C;margin-top:6px;"></div>
+      </div>
+      <div class="w3-rest w3-padding-left">
+        <strong class="w3-text-dark-grey">Bachillerato</strong>
+        <span class="w3-tag w3-small w3-round" style="background:#4A90A4; color:white;">Completado</span>
+        <p class="w3-text-grey w3-small">Educación secundaria finalizada con éxito.</p>
+        <img src="https://images.unsplash.com/photo-1627556704302-624286467c65?w=500&auto=format&fit=crop&q=60"
+             alt="Educación" class="img-seccion">
+      </div>
+    </div>
+  </div>
+
+  <!-- EXPERIENCIA -->
+  <div class="w3-card w3-round-large w3-margin-top w3-padding" id="experiencia">
+    <p class="seccion-titulo">Experiencia</p>
+    <hr class="w3-border-light-grey">
+
+    <div class="w3-row">
+      <div class="w3-col" style="width:14px;">
+        <div style="width:10px;height:10px;border-radius:50%;background:#C9A84C;margin-top:6px;"></div>
+      </div>
+      <div class="w3-rest w3-padding-left">
+        <strong class="w3-text-dark-grey">Diversas áreas laborales</strong>
+        <span class="w3-tag w3-small w3-round" style="background:#4A90A4; color:white;">2026</span>
+        <p class="w3-text-grey w3-small">He trabajado en distintas áreas a lo largo del tiempo, desarrollando habilidades blandas como la responsabilidad, comunicación y trabajo en equipo. Esta es mi primera experiencia formal en Informática.</p>
+        <img src="https://plus.unsplash.com/premium_photo-1678112179594-e24e588ee410?w=500&auto=format&fit=crop&q=60"
+             alt="Experiencia" class="img-seccion">
+      </div>
+    </div>
+  </div>
+
+  <!-- HABILIDADES -->
+  <div class="w3-card w3-round-large w3-margin-top w3-padding" id="habilidades">
+    <p class="seccion-titulo">Habilidades</p>
+    <hr class="w3-border-light-grey">
+
+    <div>
+      <span class="habilidad-tag">💪 Perseverancia</span>
+      <span class="habilidad-tag">📋 Disciplina</span>
+      <span class="habilidad-tag">✅ Responsabilidad</span>
+      <span class="habilidad-tag">🤝 Trabajo en equipo</span>
+      <span class="habilidad-tag">⏰ Puntualidad</span>
+    </div>
+    <p class="w3-text-grey w3-small w3-margin-top">Cualquier cosa que me enseñen lo trato de aprender lo antes posible.</p>
+    <img src="https://images.unsplash.com/photo-1493612276216-ee3925520721?w=500&auto=format&fit=crop&q=60"
+         alt="Habilidades" class="img-seccion">
+  </div>
+
+  <!-- IDIOMAS -->
+  <div class="w3-card w3-round-large w3-margin-top w3-padding" id="idiomas">
+    <p class="seccion-titulo">Idiomas</p>
+    <hr class="w3-border-light-grey">
+
+    <div>
+      <span class="habilidad-tag">🇧🇴 Español — Nativo</span>
+      <span class="habilidad-tag">🇺🇸 Inglés — Básico</span>
+    </div>
+    <p class="w3-text-grey w3-small w3-margin-top">Domino lo básico del inglés.</p>
+    <img src="https://images.unsplash.com/photo-1650844228078-6c3cb119abcd?w=500&auto=format&fit=crop&q=60"
+         alt="Idiomas" class="img-seccion">
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="w3-center w3-padding w3-text-grey w3-small w3-margin-top">
+    <p>CV · Nina Copatiti Alex · 2026</p>
+  </footer>
+
+</div><!-- fin w3-content -->
+
+</body>
+</html>
